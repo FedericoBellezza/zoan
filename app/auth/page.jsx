@@ -1,3 +1,5 @@
+import AuthForm from "../../components/AuthForm";
+
 export default function AuthPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
@@ -5,7 +7,7 @@ export default function AuthPage() {
       <p className="text-gray-600">
         Login or register to access the event management platform.
       </p>
-      {/* Authentication form will be implemented here */}
+      <AuthForm />
     </div>
   );
 }
